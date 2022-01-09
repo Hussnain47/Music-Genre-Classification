@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Oswald:wght@600&display=swap');
+
+*,*::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-color: rgb(233, 215, 207);
+    color: rgb(73, 51, 51);
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    height: 100vh;
+    margin: .5rem auto;
+}
+
+#music-image {
+    height: 280px;
+}
+
+#heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 52px;
+}
+
+#description {
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 1rem;
+}
+
+#file-upload {
+    margin-top: 1rem;
+    font-family: 'Fira Sans', sans-serif;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 7px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 15rem;
+}
