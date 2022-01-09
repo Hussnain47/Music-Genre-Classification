@@ -14,14 +14,14 @@ def home():
         f = request.files['file']
         print("B")
         print(f.filename)
-        if ".mp3" in f.filename:
+        if ".wav" in f.filename:
             f.save(os.path.join(os.getcwd(), "Music", f"File 1 {secure_filename(f.filename)}"))
             pr = f.filename
         elif f.filename==pr:
             return render_template("index.html", message=" ")
         else:
             pr = f.filename
-            return render_template("index.html", message="You must enter .mp3 file.")
+            return render_template("index.html", message="You must enter .wav file.")
         name = f.filename
         print(name)
         del f
