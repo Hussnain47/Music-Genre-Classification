@@ -119,4 +119,3 @@ def return_classified(path):
         return 'Reggae'
     elif res == 9:
         return 'Rock'
-print(return_classified('./Data/genres_original/blues.00000.wav'))
