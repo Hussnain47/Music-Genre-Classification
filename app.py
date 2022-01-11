@@ -19,9 +19,6 @@ def home():
             session["filename"] = f.filename
             prediction = return_classified(session['path'])
             return render_template("index.html", message=f"Your file {session['filename']} is predicted to be of Genre {prediction}.")
-        elif f.filename in session:
-            return_classified(session['path'])
-            return render_template("index.html", message=" ")
         else:
             return render_template("index.html", message="You must enter .wav audio file.")
         
