@@ -1,7 +1,6 @@
 import os
 import librosa as lr
-from numpy.lib.function_base import diff
-from tensorflow import keras
+import tensorflow
 from keras.models import model_from_json
 import warnings
 warnings.filterwarnings('ignore')
