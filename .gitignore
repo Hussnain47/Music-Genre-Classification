@@ -1,2 +1,3 @@
 # files to be ignored by git
 *.mp3
+/MGC_env
