@@ -1,3 +1,5 @@
-import librosa as lr
+import numpy as np
 
-lr.load('E:\Misc\Songs\Akon-Right-Now.mp3')
+x = np.array([1,2,3,4,5,6,7,8,9])
+x = x[np.newaxis,:]
+print(x)
