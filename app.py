@@ -17,8 +17,9 @@ def home():
             session['path'] = os.path.join(os.getcwd(), "Music", f"{secure_filename(f.filename)}")
             f.save(session['path'])
             session["filename"] = f.filename
+            
             prediction = return_classified(session['path'])
-            os.remove(session['path'])
+            
             return render_template("index.html", message=f"Your file {session['filename']} is predicted to be of Genre {prediction}.")
         else:
             return render_template("index.html", message="You must enter .wav audio file.")

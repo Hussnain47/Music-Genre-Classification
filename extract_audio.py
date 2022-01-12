@@ -5,7 +5,7 @@ warnings.filterwarnings('ignore')
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
-
+import os
 
 SR = 22050
 
@@ -71,6 +71,7 @@ def extract_mfcc(features,audio):
 
 def read_audio(path):
     audio,sr = lr.load(path,sr=SR)
+    os.remove(path)
     return extract_features(audio)
 
 def getscaled_data(features):
