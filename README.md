@@ -73,6 +73,7 @@ temporally varying precursor of pitch. This transformation is based on perceptua
 concerning the auditory system and has been shown to possess several interesting mathematical
 properties. We illustrate the use of the Chromagram as a fast and robust method for visualizing
 attributes of a singer's voice, which is relatively variant to changes in the vocal tract resonances.
+
 ![Chroma](rd_image/Chroma.png)
 
 <p align="center">
@@ -86,6 +87,7 @@ recording.
 The spectral centroid is a measure used in digital signal processing to a spectrum. It indicates
 where the center of mass of the spectrum is located. Perceptually, it has a robust connection with
 the impression of the brightness of a sound.
+
 ![Spectral Centroid](rd_image/SpectralCentroid.png)
 
 #### Spectral Bandwidth:
@@ -102,7 +104,7 @@ be applied to any relevant function of frequency, and any technology, not just e
 usual to measure roll-off as a function of logarithmic frequency; consequently, the units of roll-off
 are either decibels per decade (dB/decade), where a decade is a tenfold increase in frequency, or
 decibels per octave (dB/8ve), where an octave is a twofold increase in frequency.
-Plot of Roll off of an audio signal
+
 ![Roll off](rd_image/Roll_off.png)
 
 #### Zero Crossing:
@@ -111,6 +113,7 @@ The zero-crossing rate (ZCR) is the rate at which a signal changes from positive
 or from negative to zero to positive. Its value has been widely used in both speech recognition and
 music information retrieval, being a key feature to classify percussive sounds.
 Plot of audio signal and its Number of Zero Crossing in an Interval
+
 ![Zero Crossing](rd_image/Zero_Crossing.png)
 
 #### Harmony:
@@ -124,6 +127,7 @@ approach, consonance is a continuous variable. Consonant pitch relationships are
 sounding more pleasant, euphonious, and beautiful than dissonant relationships which sound
 unpleasant, discordant, or rough.
 Plot of audio signal, Pitch Estimations and its Harmonic Ratio.
+
 ![Harmony](rd_image/Harmony.png)
 
 #### Tempo:
